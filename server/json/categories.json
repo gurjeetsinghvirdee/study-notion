@@ -1,0 +1,32 @@
+[
+    {
+        "name": "AI/ML",
+        "description": "Artificial Intelligence and Machine Learning",
+        "courses": [],
+        "version": 0
+    },
+    {
+        "name": "DSA",
+        "description": "DataStructures and Algorithms",
+        "courses": [],
+        "version": 0
+    },
+    {
+        "name": "Front End Development",
+        "description": "Front-end development focuses on creating the user interface and experience of websites and applications.",
+        "courses": [],
+        "version": 0
+    },
+    {
+        "name": "Back End Development",
+        "description": "Backend development involves building and maintaining the server-side logic and database of websites or applications.",
+        "courses": [],
+        "version": 0
+    },
+    {
+        "name": "Dev Ops",
+        "description": "DevOps is a software development methodology that combines development (Dev) and operations (Ops) to streamline collaboration and automate processes for faster and more reliable software delivery.",
+        "courses": [],
+        "version": 0
+    }
+]
