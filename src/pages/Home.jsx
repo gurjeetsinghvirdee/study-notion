@@ -132,7 +132,7 @@ function Home() {
       {/* Section 2 */}
       <div className="bg-pure-greys-5 text-richblack-700">
         <div className="homepage_bg h-[320px]">
-          {/* Explore Full Catagory Section */}
+          {/* Explore Full Category Section */}
           <div className="mx-auto flex w-11/12 max-w-maxContent flex-col items-center justify-between gap-8">
             <div className="lg:h-[150px]"></div>
             <div className="flex flex-row gap-7 text-white lg:mt-8">
@@ -181,7 +181,7 @@ function Home() {
         {/* Become a instructor section */}
         <InstructorSection />
 
-        {/* Reviws from Other Learner */}
+        {/* Reviews from Other Learner */}
         <h1 className="text-center text-4xl font-semibold mt-8">
           Reviews from other learners
         </h1>
