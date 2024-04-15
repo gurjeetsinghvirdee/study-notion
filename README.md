@@ -32,17 +32,17 @@ It offers a range of features including course management, user authentication, 
 
 To get started with the Study Notion project, follow these steps:
 1. Fork the repository.
-2. Clone the repository: `git clone https://github.com/<your-github-username>/studynotion`
+2. Clone the repository: `git clone https://github.com/<your-github-username>/study-notion`
 3. Navigate to the project directory: `cd study-notion`
 4. Install dependencies for both frontend and backend:
    ```bash
-   cd frontend
+   cd src
    npm install
-   cd backend
+   cd server
    npm install
    ```
 5. Set up environment variables:
-   - Create a `.env` file in the `backend` directory.
+   - Create a `.env` file in the `server` directory.
    - Define environment variables such as MongoDB connection URI, JWT secret, etc.
 6. Start the backend server:
    ```bash
@@ -50,6 +50,6 @@ To get started with the Study Notion project, follow these steps:
    ```
 7. Start the frontend development server:
    ```bash
-   cd ../frontend
+   cd ../src
    npm start
    ```
