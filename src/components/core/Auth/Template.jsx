@@ -1,9 +1,9 @@
-import { FcGoogle } from "react-icons/fc"; // Importing Google icon from react-icons library
-import { useSelector } from "react-redux"; // Importing useSelector hook from react-redux for accessing Redux store
+import { FcGoogle } from "react-icons/fc"; 
+import { useSelector } from "react-redux"; 
 
-import frameImg from "../../../assets/Images/frame.png"; // Importing image for the frame
-import LoginForm from "./LoginForm"; // Importing LoginForm component
-import SignupForm from "./SignupForm"; // Importing SignupForm component
+import frameImg from "../../../assets/Images/frame.png"; 
+import LoginForm from "./LoginForm"; 
+import SignupForm from "./SignupForm";
 
 // Template component definition
 function Template({ title, description1, description2, image, formType }) {
@@ -47,7 +47,7 @@ function Template({ title, description1, description2, image, formType }) {
                             width={558}
                             height={504}
                             loading="lazy"
-                            className="absolute -top4 right-4 z-10"
+                            className="absolute -top-4 right-4 z-10"
                         />
                     </div>
                 </div>
@@ -55,3 +55,5 @@ function Template({ title, description1, description2, image, formType }) {
         </div>
     );
 }
+
+export default Template;

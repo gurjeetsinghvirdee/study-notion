@@ -1,7 +1,7 @@
 import React from "react";
 import copy from "copy-to-clipboard";
 import { toast } from "react-hot-toast"
-import { BsFillCareRightFill } from "react-icons/bs";
+import { BsFillCaretRightFill } from "react-icons/bs";
 import { FaShareSquare } from "react-icons/fa";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
@@ -106,7 +106,7 @@ function CourseDetailsCard({ course, setConfirmationModal, handleBuyCourse }) {
                             {course?.instruction?.map((item, i) => {
                                 return (
                                     <p className={`flex gap-2`} key={i}>
-                                        <BsFillCareRightFill />
+                                        <BsFillCaretRightFill />
                                         <span>{item}</span>
                                     </p>
                                 )

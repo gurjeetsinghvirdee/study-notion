@@ -9,7 +9,7 @@ const ContactUsForm = () => {
     const [loading, setLoading] = useState(false)
     const {
         register,
-        handlesubmit,
+        handleSubmit,
         reset,
         formState: {errors, isSubmitSuccessfull },
     } = useForm()
@@ -173,7 +173,7 @@ const ContactUsForm = () => {
             <button
                 disabled={loading}
                 type="submit"
-                className={`rounded-md bg-yellow-50 px-6 text-center text-[13px] font-bold text-black shadow-[2px_2px_0px_0px_rgba(255, 255, 255, 0.18)]
+                className={`rounded-md bg-yellow-50 px-8 font-size text-center text-[13px] font-bold text-black shadow-[2px_2px_0px_0px_rgba(255, 255, 255, 0.18)]
                 ${
                     !loading &&
                     "transition-all duration-200 hover:scale-95 hover:shadow-none"

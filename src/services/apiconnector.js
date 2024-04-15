@@ -16,10 +16,19 @@ export const axiosInstance = axios.create({});
  */
 export const apiConnector = (method, url, bodyData, headers, params) => {
     return axiosInstance({
-        method: `${method}`,
-        url: `${url}`,
-        data: bodyData ? bodyData : null,
-        headers: headers ? headers : null,
-        params: params ? params : null,
+        method: method,
+        url: url,
+        data: bodyData || null,
+        headers: headers || null,
+        params: params || null,
+    })
+    .then(response => {
+        // Handle successful response
+        return response.data;
+    })
+    .catch(error => {
+        // Handle error
+        console.error("An error occurred while making the API call:", error);
+        throw error; // Re-throw the error to propagate it further
     });
 }
